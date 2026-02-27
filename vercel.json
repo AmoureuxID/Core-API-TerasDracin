@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/comic/:path*",
+      "destination": "/api/proxy"
+    },
+    {
+      "source": "/novel/:path*",
+      "destination": "/api/proxy"
+    }
+  ]
+}
