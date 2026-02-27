@@ -1,8 +1,0 @@
-{
-  "rewrites": [
-    {
-      "source": "/comic/:path*",
-      "destination": "/api/comic/:path*"
-    }
-  ]
-}
